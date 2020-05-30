@@ -1,7 +1,7 @@
 baseURL = "https://jwasilew.net"
 languageCode = "en-us"
 title = "Jean Wasilewski"
-googleAnalytics = "UA-1234-6"
+googleAnalytics = "UA-146517157-2"
 timeout=3000
 
 [params]
