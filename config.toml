@@ -1,0 +1,293 @@
+baseURL = "https://jwasilew.net"
+languageCode = "en-us"
+title = "Jean Wasilewski"
+googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "Engineer"
+  interests="Computer science, electronics, automation, innovation and open source"
+
+[[params.affilation]]
+  name = "PolytechLille"
+  position = "Electrical and Computer Engineer"
+  contact = "jean.wasilewski@revs0.com"
+
+[[params.affilation]]
+  name = "Scaleway"
+  position = "Devops"
+  contact = "jwasilewski@scaleway.com"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/henyxia"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/henyxia"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://linkedin.com/in/jeanwasilewski/"
+
+[[params.social]]
+  name = "Keybase"
+  icon = "key"
+  url = "https://keybase.io/henyxia"
+
+[[params.social]]
+  name = "WeChall"
+  icon = "lock"
+  url = "https://www.wechall.net/profile/henyxia"
+
+[[params.introduction.paragraph]]
+  text="""Hi! I'm Jean Wasilewski, a French engineer graduated by the polytechnic university school of Lille (aka PolytechLille).
+I graduated in micro electronic, automatic and computer science fields. I am passionate about these subjects and even more by the
+innovation made by the open source community. As much as possible, I try to contribute to these projects to create a better world together.
+   """
+
+##
+# work
+##
+[[params.projects]]
+    work="Scaleway - DevOps"
+	date="2018-04 ~ now"
+
+[[params.projects]]
+    work="PolytechLille - Teacher"
+    date="2018-09 ~ now"
+
+[[params.projects]]
+    work="OVH - Developer"
+    date="2 years - 2016-04 ~ 2018-04"
+
+[[params.projects]]
+    work="Worldline - Developer"
+    date="4 months - 2015-05 ~ 2015-08"
+
+[[params.projects]]
+    work="萌木の村 The Nest - Waiter"
+    date="2 months - 2014-07 ~ 2014-08"
+
+[[params.projects]]
+    work="French National Health Insurance Fund - Developer"
+    date="2 months - 2012-06 ~ 2012-08"
+
+##
+# perso
+##
+[[params.persos]]
+    [[params.persos.perso]]
+    name="This website"
+    description = """
+Creating a website for my CV was a fun task.
+With Hugo and Firebase, it was done in no time!
+"""
+		[[params.persos.perso.links]]
+		name="code"
+		url="https://github.com/henyxia/jwasilew.net"
+
+    [[params.persos.perso]]
+    name="A homemade lab with a Ceph cluster"
+    description = """
+Back when I worked in OVH, I had the opportunity to buy second hand hardware for cheap.
+I made it evolve to reduce size, power consumption and increase capacity.
+It went through tree generations of upgrades and is now a fully functionnal 32 To cluster.
+"""
+
+    [[params.persos.perso]]
+    name="French security competition: BreizhCTF 2019 - 5th finalist"
+	description="""
+When at Scaleway, we decided to create a small team to pwn CTFs.
+We named ourselves Scalewelsh, trained and registered to the BreizhCTF.
+This event was amazingly fun and we had the change to finish 5th.
+"""
+
+		[[params.persos.perso.links]]
+		name="website"
+		url="https://www.breizhctf.com/"
+
+		[[params.persos.perso.links]]
+		name="results"
+		url="https://twitter.com/_SaxX_/status/1117685208839524352"
+
+		[[params.persos.perso.links]]
+		name="our team before"
+		url="/breizhctf-before.jpg"
+
+		[[params.persos.perso.links]]
+		name="our team after"
+		url="/breizhctf-after.jpg"
+
+
+    [[params.persos.perso]]
+    name="Audio HiFi amplifier"
+	description="""
+When I was a kid, I try to create a HiFi amplifier.
+It did not went as expected and I learned a lot about electronics in the mean time.
+Now the amplifier works thanks to a STA540 but I plan change it to a higher quality chip.
+Also, the alimentation has to be finished (I am using a laboratory power supply meanwhile).
+I try to add some functionnalities (like a source selector) and publish it on Github.
+"""
+
+		[[params.persos.perso.links]]
+		name="repo"
+		url="https://github.com/henyxia/MusicBOX"
+
+	[[params.persos.perso]]
+	name="SSH Bastion"
+	description="""
+At OVH, I had the pleasure to work with a good bastion written in Perl.
+When I left OVH, I told myself it would be fun to create an open source one.
+That's a cool project we are working on with friends.
+"""
+
+		[[params.persos.perso.links]]
+		name="repo"
+		url="https://github.com/open-bastion/open-bastion"
+
+    [[params.persos.perso]]
+    name="House renovation"
+	description="""
+A friend of mine recenlty bought a house where everything has to be redone.
+So we are working on recreating every floor, wiring new electrical cables everywhere and adding switchboards.
+We are tearing down alomost every wall to lay new ones.
+"""
+
+	[[params.persos.perso]]
+	name="Car maintenance"
+	description="""
+I always was passionated by mechanical and more specificaly automotive mechanics.
+I learned a lot about it and now perform most of my car maintenace by myself.
+I always enjoy to help friends with their car when needed.
+I also love to be helped by other friends better than me or my father.
+"""
+
+    [[params.persos.perso]]
+    name="Some cool major projects from school"
+	description="""
+##### [PCB part picker](https://projets-ima.plil.fr/mediawiki/index.php/Automatic_Soldering_System_Project)
+We created a PCB part picker from scratch.
+We 3D printed almost all pieces except some wood we cut and aluminium pieces drill.
+##### [Coffee machine with NFC payment](https://projets-ima.plil.fr/mediawiki/index.php/Thetweekproject)
+We tried to improve a coffee machine to be payable with the NFC card of our school.
+It involved high power control, temperature regulation and embeded development.
+##### [Creating a redundant infrastructure from litteraly nothing](https://projets-ima.plil.fr/mediawiki/index.php/PRA_2015_-_C%C3%A2blage_d%27un_r%C3%A9seau_redondant)
+From nothing, we created a highly available infrastructure.
+We pass fibers, configured routers and switches and created virtual machines on Xen.
+"""
+
+    [[params.persos.perso]]
+    name="Some other projects I never had the time to write a blogpost about"
+    description = """
+* An Arduino embed card to check Cisco port status via serial
+* PCI-Passthrough KVM to play on Windows while being on Linux
+* An Analog to Digital Converter (ADC) with a FPGA (in VHDL)
+* The enslavement of a robotic arm taken from a kid toy (in C)
+* A robot that grabs cans and transport them with NXT Lego (in C)
+* A VGA driver with a FPGA (in VHDL)
+* XBOX 360 homebrews
+* PSP PRX plugin in the vein of VSH Menu before it was cool
+"""
+
+##
+# other
+##
+[[params.others]]
+	topic="Human languages"
+
+    [[params.others.other]]
+    desc="French"
+    value="Native language"
+
+    [[params.others.other]]
+    desc="English"
+    value="Used to be fluent"
+
+    [[params.others.other]]
+    desc="Japanese"
+    value="Used to understand"
+
+    [[params.others.other]]
+    desc="Spanish"
+    value="Hablo un poquito"
+
+[[params.others]]
+	topic="Computer languages"
+
+	[[params.others.other]]
+    desc="Languages I love"
+    value="C C++ Perl Go Latex SQL VHDL Bash Web(HTML, CSS, JS)"
+
+	[[params.others.other]]
+    desc="Languages I can write if needed"
+    value="PHP Python"
+
+	[[params.others.other]]
+    desc="Languages I had fun to use once"
+    value="C# HLSL Lua"
+
+[[params.others]]
+	topic="Technologies"
+
+	[[params.others.other]]
+	desc="Editors and IDE"
+	value="Vim (and only Vim)"
+
+	[[params.others.other]]
+	desc="Operating Systems"
+	value="Debian Fedora Gentoo Kali/Backtrack Ubuntu Windows"
+
+	[[params.others.other]]
+	desc="Automation"
+	value="Ansible Puppet Salt"
+
+	[[params.others.other]]
+	desc="Virtualization / Containers"
+	value="Proxmox KVM Docker Nomad Xen VMware"
+
+	[[params.others.other]]
+	desc="Service discovery and secrets"
+	value="Consul Vault [pass](https://www.passwordstore.org)"
+
+	[[params.others.other]]
+	desc="Major projects I contributed to"
+	value="Apache HAProxy Ceph's containers"
+
+
+[[params.others]]
+	topic="Hobbies"
+
+	[[params.others.other]]
+	desc="Music"
+	detailvalue="""
+I listen to music all the time!
+I also enjoy going to concerts and festivals.
+I try to make some too on guitar, bass, drums.
+Sometimes, I even take the risk to sing (poorly).
+"""
+
+	[[params.others.other]]
+	desc="Sports"
+	detailvalue="""
+After 12 years of archery, I switched to new sports.
+I now enjoy crossfit, pilate and a lot of climbing.
+"""
+
+	[[params.others.other]]
+	desc="Travel"
+	detailvalue="""
+I like to travel in other country, experiencing other cultures.
+I already had the pleasure to visit U.S.A., Canada, South Korea,
+New Zealand, many islands of French Polynesia and Japan (4 times).
+"""
+
+	[[params.others.other]]
+	desc="Readings"
+	detailvalue="""
+I love to read when I have the time.
+Except some particular books like Ubik, I prefer to read technical magazines and writtings (like O'Reilly or [Misc](https://www.miscmag.com/)).
+"""

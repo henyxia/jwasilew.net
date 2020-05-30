@@ -1,0 +1,25 @@
+<div class="introduction">
+    <h3>Other</h3>
+
+    {{ with .Site.Params.others }}
+    {{- range $index, $others_map := $.Site.Params.others -}}
+
+    <h4>{{ $others_map.topic }}</h4>
+    <table style="width:100%">
+        {{ range $elem_index, $other := $others_map.other }}
+        <tr>
+            <td>{{ $other.desc }}</td>
+            <td style="text-align:right">{{ $other.value | markdownify }}</td>
+        </tr>
+        {{ if $other.detailvalue }}
+        <tr>
+            <td style="width:20%"></td>
+            <td style="text-align:right">{{ $other.detailvalue | markdownify }}</td>
+        </tr>
+        {{ end }}
+        {{ end }}
+    </table>
+
+    {{- end -}}
+    {{ end }}
+</div>

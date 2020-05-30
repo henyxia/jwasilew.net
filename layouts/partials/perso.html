@@ -1,0 +1,26 @@
+<div class="introduction">
+    {{ with .Site.Params.persos }}
+    <h3>Personal experiences and projects</h3>
+
+    {{- range $index, $persos_map := $.Site.Params.persos -}}
+
+        {{ range $elem_index, $perso := $persos_map.perso }}
+        <div class="year">{{ $perso.name }}</div>
+
+            {{ if $perso.links }}
+            <span class="code_blog">
+            {{ range $link_index, $link := $perso.links }}
+                [<a href="{{ $link.url }}">{{ $link.name }}</a>]
+            {{ end }}
+            </span>
+            {{ end }}
+
+            {{ with $perso.description }}
+            <span class="project_description">{{ . | markdownify}}</span>
+            {{ end }}
+
+        {{ end }}
+
+    {{- end -}}
+    {{ end }}
+</div>
