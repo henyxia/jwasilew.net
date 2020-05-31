@@ -95,7 +95,7 @@ With Hugo and Firebase, it was done in no time!
     description = """
 Back when I worked in OVH, I had the opportunity to buy second hand hardware for cheap.
 I made it evolve to reduce size, power consumption and increase capacity.
-It went through three generations of upgrades and is now a fully functionnal 32 To cluster.
+It went through three generations of upgrades and is now a fully functionnal 32 TB cluster.
 """
 
     [[params.persos.perso]]
