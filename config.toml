@@ -45,9 +45,9 @@ timeout=3000
 
 [[params.introduction.paragraph]]
   text="""Hi! I'm Jean Wasilewski, a French engineer graduated by the polytechnic university school of Lille (aka PolytechLille).
-I graduated in micro electronic, automatic and computer science fields. I am passionate about these subjects and even more by the
+I graduated in microelectronics, automatics and computer science. I am passionate about these subjects and even more by the
 innovation made by the open source community. As much as possible, I try to contribute to these projects to create a better world together.
-   """
+"""
 
 ##
 # work
@@ -95,7 +95,7 @@ With Hugo and Firebase, it was done in no time!
     description = """
 Back when I worked in OVH, I had the opportunity to buy second hand hardware for cheap.
 I made it evolve to reduce size, power consumption and increase capacity.
-It went through tree generations of upgrades and is now a fully functionnal 32 To cluster.
+It went through three generations of upgrades and is now a fully functionnal 32 To cluster.
 """
 
     [[params.persos.perso]]
@@ -103,7 +103,7 @@ It went through tree generations of upgrades and is now a fully functionnal 32 T
 	description="""
 When at Scaleway, we decided to create a small team to pwn CTFs.
 We named ourselves Scalewelsh, trained and registered to the BreizhCTF.
-This event was amazingly fun and we had the change to finish 5th.
+This event was amazingly fun and we were happy to finish 5th.
 """
 
 		[[params.persos.perso.links]]
@@ -126,11 +126,11 @@ This event was amazingly fun and we had the change to finish 5th.
     [[params.persos.perso]]
     name="Audio HiFi amplifier"
 	description="""
-When I was a kid, I try to create a HiFi amplifier.
-It did not went as expected and I learned a lot about electronics in the mean time.
-Now the amplifier works thanks to a STA540 but I plan change it to a higher quality chip.
-Also, the alimentation has to be finished (I am using a laboratory power supply meanwhile).
-I try to add some functionnalities (like a source selector) and publish it on Github.
+When I was a kid, I tried to create a HiFi amplifier.
+It did not go as expected and I learnt a lot about electronics in the mean time.
+Now the amplifier works thanks to a STA540 but I plan to change for a higher quality chip.
+Also, the power supply has to be finished (I am using a laboratory power supply meanwhile).
+I try to add some functionalities (like a source selector) and publish it on Github.
 """
 
 		[[params.persos.perso.links]]
@@ -142,7 +142,7 @@ I try to add some functionnalities (like a source selector) and publish it on Gi
 	description="""
 At OVH, I had the pleasure to work with a good bastion written in Perl.
 When I left OVH, I told myself it would be fun to create an open source one.
-That's a cool project we are working on with friends.
+That's a cool project I am working on with friends.
 """
 
 		[[params.persos.perso.links]]
@@ -152,18 +152,18 @@ That's a cool project we are working on with friends.
     [[params.persos.perso]]
     name="House renovation"
 	description="""
-A friend of mine recenlty bought a house where everything has to be redone.
+A friend of mine recently bought a house where everything has to be redone.
 So we are working on recreating every floor, wiring new electrical cables everywhere and adding switchboards.
-We are tearing down alomost every wall to lay new ones.
+We are tearing down almost every wall to lay new ones.
 """
 
 	[[params.persos.perso]]
 	name="Car maintenance"
 	description="""
-I always was passionated by mechanical and more specificaly automotive mechanics.
-I learned a lot about it and now perform most of my car maintenace by myself.
+I have always been by passionated by mechanics and more specifically automotive mechanics.
+I learnt a lot about it and now perform most of my car maintenance by myself.
 I always enjoy to help friends with their car when needed.
-I also love to be helped by other friends better than me or my father.
+I also love to be helped by other friends who are better than me or by my father.
 """
 
     [[params.persos.perso]]
@@ -171,13 +171,13 @@ I also love to be helped by other friends better than me or my father.
 	description="""
 ##### [PCB part picker](https://projets-ima.plil.fr/mediawiki/index.php/Automatic_Soldering_System_Project)
 We created a PCB part picker from scratch.
-We 3D printed almost all pieces except some wood we cut and aluminium pieces drill.
+We 3D printed almost all parts except the wood pieces we cut and aluminium pieces we drilled.
 ##### [Coffee machine with NFC payment](https://projets-ima.plil.fr/mediawiki/index.php/Thetweekproject)
 We tried to improve a coffee machine to be payable with the NFC card of our school.
-It involved high power control, temperature regulation and embeded development.
+It involved high power control, temperature regulation and embedded development.
 ##### [Creating a redundant infrastructure from litteraly nothing](https://projets-ima.plil.fr/mediawiki/index.php/PRA_2015_-_C%C3%A2blage_d%27un_r%C3%A9seau_redondant)
 From nothing, we created a highly available infrastructure.
-We pass fibers, configured routers and switches and created virtual machines on Xen.
+We ran fibers, configured routers and switches and created virtual machines on Xen.
 """
 
     [[params.persos.perso]]
@@ -186,8 +186,8 @@ We pass fibers, configured routers and switches and created virtual machines on 
 * An Arduino embed card to check Cisco port status via serial
 * PCI-Passthrough KVM to play on Windows while being on Linux
 * An Analog to Digital Converter (ADC) with a FPGA (in VHDL)
-* The enslavement of a robotic arm taken from a kid toy (in C)
-* A robot that grabs cans and transport them with NXT Lego (in C)
+* The control of a robotic arm taken from a kid toy (in C)
+* A robot that grabs cans and transports them with NXT Lego (in C)
 * A VGA driver with a FPGA (in VHDL)
 * XBOX 360 homebrews
 * PSP PRX plugin in the vein of VSH Menu before it was cool
@@ -266,7 +266,7 @@ We pass fibers, configured routers and switches and created virtual machines on 
 	detailvalue="""
 I listen to music all the time!
 I also enjoy going to concerts and festivals.
-I try to make some too on guitar, bass, drums.
+I try to make some on guitar, bass and drums.
 Sometimes, I even take the risk to sing (poorly).
 """
 
@@ -280,7 +280,7 @@ I now enjoy crossfit, pilate and a lot of climbing.
 	[[params.others.other]]
 	desc="Travel"
 	detailvalue="""
-I like to travel in other country, experiencing other cultures.
+I like to travel in other countries, experiencing other cultures.
 I already had the pleasure to visit U.S.A., Canada, South Korea,
 New Zealand, many islands of French Polynesia and Japan (4 times).
 """
@@ -289,5 +289,5 @@ New Zealand, many islands of French Polynesia and Japan (4 times).
 	desc="Readings"
 	detailvalue="""
 I love to read when I have the time.
-Except some particular books like Ubik, I prefer to read technical magazines and writtings (like O'Reilly or [Misc](https://www.miscmag.com/)).
+Except some particular books like Ubik, I prefer to read technical magazines and writings (like O'Reilly or [Misc](https://www.miscmag.com/)).
 """
