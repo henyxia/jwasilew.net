@@ -13,11 +13,6 @@ timeout=3000
   position = "Electrical and Computer Engineer"
   contact = "jean.wasilewski@revs0.com"
 
-[[params.affilation]]
-  name = "Scaleway"
-  position = "Devops"
-  contact = "jwasilewski@scaleway.com"
-
 [[params.social]]
   name = "GitHub"
   icon = "github"
@@ -53,8 +48,12 @@ innovation made by the open source community. As much as possible, I try to cont
 # work
 ##
 [[params.projects]]
+    work="A top secret company - SRE"
+    date="2022-07 ~ now"
+
+[[params.projects]]
     work="Scaleway - DevOps"
-	date="2018-04 ~ now"
+	date="4 years - 2018-04 ~ 2022-06"
 
 [[params.projects]]
     work="PolytechLille - Teacher"
